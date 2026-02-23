@@ -1,8 +1,12 @@
 # Data
-data/
+data/maps/
 
-# Model weights
+# Model weights and checkpoints
 *.pth
+checkpoints/
+
+# Runtime outputs
+outputs/
 
 # Python
 __pycache__/
@@ -11,6 +15,3 @@ __pycache__/
 
 # OS
 .DS_Store
-
-# Output images (optional - can be committed to show results)
-# *.png
